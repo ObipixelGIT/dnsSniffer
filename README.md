@@ -1,4 +1,4 @@
-# dns-sniffer
+# dnsSniffer
 DNS Sniffer - Figure out where your traffic is being sent to, when browsing the Internet
 
 ## How this script works?
@@ -23,43 +23,43 @@ sudo apt install python3-scapy
 Ensure you give the script permissions to execute. Do the following from the terminal:
 
 ```bash
-sudo chmod +x dns-sniffer.py
+sudo chmod +x dnsSniffer.py
 ```
 
 ## Usage
 
 Help:
 ```bash
-sudo python3 dns_sniffer.py -h
+sudo python3 dnsSniffer.py -h
 ```
 
 Basic:
 ```bash
-sudo python3 dns_sniffer.py
+sudo python3 dnsSniffer.py
 ```
 
 Use a specific adapter:
 ```bash
-sudo python3 dns_sniffer.py -i eth0
+sudo python3 dnsSniffer.py -i eth0
 ```
 
 Log to a database:
 ```bash
-sudo python3 dns_sniffer.py -d db.sqlite
+sudo python3 dnsSniffer.py -d db.sqlite
 	
-sudo python3 dns_sniffer.py -d db.sqlite -i eth0
+sudo python3 dnsSniffer.py -d db.sqlite -i eth0
 ```
 
 Use Quiet Mode:
 ```bash
-sudo python3 dns_sniffer.py -d db.sqlite -q
+sudo python3 dnsSniffer.py -d db.sqlite -q
 
-sudo python3 dns_sniffer.py -d db.sqlite -i eth0 -q
+sudo python3 dnsSniffer.py -d db.sqlite -i eth0 -q
 ```
 
 Export the SQLite DB to a CSV file:
 ```bash
-sudo python3 dns_sniffer.py -d db.sqlite -e db.csv
+sudo python3 dnsSniffer.py -d db.sqlite -e db.csv
 ```
 
 ## Example script
