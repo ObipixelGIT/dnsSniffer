@@ -1,5 +1,5 @@
 # dnsSniffer
-DNS Sniffer - Figure out where your traffic is being sent to, when browsing the Internet
+DNS Sniffer - Figure out where your traffic is being sent to, when browsing the Internet and classified as an OSINT tool.
 
 ## How this script works?
 - Activate this Sniffer from the terminal.
